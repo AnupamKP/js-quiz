@@ -62,7 +62,7 @@ const allQuestions = [{
 
 const numberOfQuestions = allQuestions.length;
 const numberOfOptions = 4;
-const correctOptionPoints = 10;
+const correctOptionPoints = 1;
 const inCorrectOptionPoints = 0; 
 const appGreetingMessage = `\nWelcome to Javascript Quiz!\n\nYou will be given ${numberOfQuestions} question with ${numberOfOptions} options each and you have to select one of the option which you think is correct.\nEach correct answer gives you ${correctOptionPoints} points and each wrong answer gives you ${inCorrectOptionPoints} point.\nYour total score will be calculated and displayed at the end.\n\nGood luck!`;
 const continueMessage = '\n(Press any keys to continue....)\n';
